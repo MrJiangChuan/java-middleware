@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /es
+spring:
+  elasticsearch:
+    rest:
+      uris: 192.168.48.123:9200,192.168.48.124:9200,192.168.48.125:9200
